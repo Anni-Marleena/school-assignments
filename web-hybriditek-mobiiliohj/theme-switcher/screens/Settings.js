@@ -8,7 +8,7 @@ export default function Settings() {
     const { isDarkMode } = useTheme()
 
   return (
-    <View style={[Styles.container, isDarkMode ? Styles.dark : Styles.light]}>
+    <View style={[Styles.container,isDarkMode ? Styles.dark : Styles.light]}>
         <ThemeSwitchButton />
     </View>
   );
