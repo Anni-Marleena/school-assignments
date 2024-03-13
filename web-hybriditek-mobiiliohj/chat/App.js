@@ -1,4 +1,4 @@
-import { Button, SafeAreaView, StyleSheet, TextInput, View, ScrollView } from 'react-native';
+import { Button, SafeAreaView, StyleSheet, TextInput, View, ScrollView, Text } from 'react-native';
 import { firestore, collection, addDoc,serverTimestamp, MESSAGES, query, onSnapshot } from './firebase/Config';
 import { useEffect, useState } from 'react';
 import Constants from 'expo-constants';
